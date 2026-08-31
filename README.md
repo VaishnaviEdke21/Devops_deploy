@@ -3,15 +3,7 @@
 DevOpsDeploy is an automated CI/CD project that deploys a containerized web application to AWS EC2 using Git, GitHub, Jenkins, Docker, Nginx and GitHub Webhooks.
 
 ## Architecture
-
-```mermaid
-flowchart LR
-    A[Developer] -->|Git push| B[GitHub]
-    B -->|Webhook| C[Jenkins on AWS EC2]
-    C -->|Build| D[Docker Image]
-    D -->|Run| E[Nginx Container]
-    E -->|Port 80| F[Web Application]
-```
+![DevOpsDeploy CI/CD Architecture](architecture/devopsdeploy-architecture.png)
 
 ## CI/CD Workflow
 
