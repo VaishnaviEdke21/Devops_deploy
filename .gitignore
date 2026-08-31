@@ -1,0 +1,22 @@
+# AWS keys and credentials
+*.pem
+*.key
+.env
+.env.*
+
+# Jenkins files
+.jenkins/
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
